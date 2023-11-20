@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Tasarim</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .box {
+        width: 25%;
+        /* height: 250px; */
+        background-color: lightskyblue;
+        float: left;
+        border: 1px solid black;
+      }
+      @media screen and (max-width: 900px) {
+        .box {
+          width: 33%;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .box {
+          width: 50%;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .box {
+          width: 100%;
+        }
+      }
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="../images/maldives.jpg" alt="" />
+    </div>
+    <div class="box">
+      <img src="../images/david-besh.jpg" alt="" />
+    </div>
+    <div class="box">
+      <img src="../images/maldives.jpg" alt="" />
+    </div>
+    <div class="box">
+      <img src="../images/david-besh.jpg" alt="" />
+    </div>
+    <div class="box">
+      <img src="../images/maldives.jpg" alt="" />
+    </div>
+  </body>
+</html>

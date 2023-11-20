@@ -1,0 +1,47 @@
+/*
+(p) --> Tum p etiketleri
+
+(div p) --> div icerisindeki tum p etiketleri
+
+(div, p) --> tum div tum p etiketleri
+
+(p+div) --> p etiketinden sonra gelen div etiketi
+*/
+
+/* p{color: red;} */
+
+/* div p {
+  color: red;
+} */
+
+/* 
+.container{
+  color: royalblue;
+} 
+*/
+
+
+/* .container div{
+  color: royalblue;
+} 
+*/
+
+/* .container div p{
+  color: royalblue;
+} 
+*/
+
+/* div, p {
+  color: red;
+} 
+*/
+
+/* 
+p + div {
+  color: red;
+} */
+
+
+div + p {
+  color: red;
+}
